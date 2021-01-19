@@ -1,10 +1,11 @@
 <template>
   <div class="todoListContainer">
   	 <div class="heading">
-  	   <h2 id = "title">
-       hello
+  	 <h2 id = "title">
+      Todo List
+       </h2>
         <add-item-form/>
-      </h2>
+      
       	<list-view/>
      </div>
 
@@ -26,5 +27,13 @@ export default {
 <style>
 .example {
   todoListContainer: red;
+  align : center;
+}
+.heading{
+	width: 100%;
+    height: 50%;
+    background-color: gray;
+    color: aquamarine;
+
 }
 </style>
